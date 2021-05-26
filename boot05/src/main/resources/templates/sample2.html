@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Thymeleaf3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  
+  <h3 th:text="${vo}">Thymeleaf Test Page</h3>
+  <!-- ''사용해야 안에 ""적용됨 -->
+  <div th:utext='${"<h3>"+vo.mid+"</h3>"}'></div>  
+
+
+
+</body>
+</html>

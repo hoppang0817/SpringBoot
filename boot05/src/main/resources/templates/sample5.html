@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Thymeleaf3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<!-- javascript에서 thymeleaf를 사용할려면   th:inline="javascript" 선언해줘야함-->
+<script th:inline="javascript">
+	var result=[[${result}]];
+</script>
+<script>
+	var result=[[${result}]];
+</script>
+</body>
+</html>
